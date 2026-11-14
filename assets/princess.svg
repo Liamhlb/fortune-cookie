@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="340" viewBox="0 0 280 340" fill="none">
+  <defs>
+    <linearGradient id="hair" x1="88" y1="50" x2="179" y2="176" gradientUnits="userSpaceOnUse"><stop stop-color="#F5CB78"/><stop offset="1" stop-color="#BF7C36"/></linearGradient>
+    <linearGradient id="dress" x1="93" y1="172" x2="180" y2="305" gradientUnits="userSpaceOnUse"><stop stop-color="#F9A4CD"/><stop offset=".5" stop-color="#EC75AE"/><stop offset="1" stop-color="#C94385"/></linearGradient>
+    <linearGradient id="silk" x1="110" y1="185" x2="148" y2="303" gradientUnits="userSpaceOnUse"><stop stop-color="#FFD6E9"/><stop offset="1" stop-color="#F58FC2"/></linearGradient>
+    <radialGradient id="magic"><stop stop-color="#FFE7A2" stop-opacity=".8"/><stop offset="1" stop-color="#FFE7A2" stop-opacity="0"/></radialGradient>
+  </defs>
+  <!-- Soft golden curls frame the face and shoulders. -->
+  <path d="M83 88C71 43 100 26 132 30C173 27 190 62 178 103C174 126 194 146 178 163C167 176 146 164 132 164C110 164 78 181 73 157C68 137 90 119 83 88Z" fill="url(#hair)" stroke="#B6793C" stroke-width="2"/>
+  <path d="M91 97C78 131 100 143 88 158M170 97C185 131 161 142 174 156" stroke="#FFE1A0" stroke-width="5" stroke-linecap="round"/>
+  <!-- Tiny crown with a rose heart jewel. -->
+  <path d="M102 43L95 16L115 28L132 7L147 28L168 17L160 45Q132 35 102 43Z" fill="#F8CF6D" stroke="#C18A36" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="95" cy="15" r="4" fill="#FFE9AC"/><circle cx="132" cy="7" r="4" fill="#FFE9AC"/><circle cx="168" cy="16" r="4" fill="#FFE9AC"/>
+  <path d="M132 33S119 26 124 21C128 18 132 23 132 23S138 17 141 22C145 27 132 33 132 33Z" fill="#D95896"/>
+  <!-- Face, ears and a gentle smile. -->
+  <ellipse cx="92" cy="85" rx="7" ry="10" fill="#F6C4A8"/><ellipse cx="170" cy="85" rx="7" ry="10" fill="#F6C4A8"/>
+  <path d="M96 65Q128 40 166 63L166 88C166 112 151 128 132 128C110 128 96 110 96 88Z" fill="#FFD9C0"/>
+  <path d="M93 78C89 49 113 41 133 43C153 40 174 56 169 80C152 76 140 64 134 54C125 72 110 79 93 78Z" fill="url(#hair)"/>
+  <path d="M107 89Q113 84 119 89M145 89Q151 84 157 89" stroke="#674137" stroke-width="2.6" stroke-linecap="round"/>
+  <ellipse cx="107" cy="99" rx="8" ry="4" fill="#EEA09D" opacity=".65"/><ellipse cx="155" cy="99" rx="8" ry="4" fill="#EEA09D" opacity=".65"/>
+  <path d="M125 108Q132 115 140 108" stroke="#AE5B62" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M123 125V141Q132 150 141 141V125" fill="#FFD9C0"/>
+  <!-- Puffed sleeves and arms, with the wand aimed down at the card. -->
+  <path d="M109 149C92 150 84 171 74 183L83 192L114 166M155 150C172 157 180 180 198 190L193 201C171 194 159 175 150 169" fill="#FFD9C0" stroke="#E8AD94" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M112 140C93 132 87 145 91 160Q98 171 111 160Z M151 140C168 134 175 145 168 161Q159 170 150 160Z" fill="#FBA6CD" stroke="#D8669B" stroke-width="2"/>
+  <path d="M105 148Q132 160 157 148L149 188H114Z" fill="url(#dress)" stroke="#CA5A91" stroke-width="2"/>
+  <path d="M113 145L132 160L151 145" stroke="#FFE0ED" stroke-width="5" stroke-linecap="round"/>
+  <path d="M113 185C100 204 91 223 64 284Q132 326 204 284C176 248 162 211 149 185Z" fill="url(#dress)" stroke="#C6548B" stroke-width="2"/>
+  <path d="M127 190Q115 235 90 294Q132 313 177 295C151 250 143 214 138 190Z" fill="url(#silk)"/>
+  <path d="M114 187Q132 195 150 187" stroke="#FFE3A5" stroke-width="6"/>
+  <path d="M131 191C112 176 107 193 121 200L132 196C151 207 158 185 143 189Z" fill="#FBD4E6" stroke="#D873A5" stroke-width="1.5"/>
+  <path d="M76 283Q130 315 193 283" stroke="#FFD9EA" stroke-width="4" stroke-linecap="round"/>
+  <g fill="#FFE7B1"><path d="M103 227L105 232L110 234L105 236L103 241L101 236L96 234L101 232Z"/><path d="M162 254L164 259L169 261L164 263L162 268L160 263L155 261L160 259Z"/><circle cx="119" cy="272" r="2"/><circle cx="151" cy="230" r="2"/></g>
+  <path d="M77 183Q67 180 66 187Q67 200 79 194L84 189" fill="#FFD9C0"/>
+  <!-- Wand tip sits just above the message card. -->
+  <path d="M188 177L240 306" stroke="#B47D39" stroke-width="5" stroke-linecap="round"/>
+  <path d="M188 177L240 306" stroke="#FFE2A0" stroke-width="2" stroke-linecap="round"/>
+  <path d="M194 188Q203 184 205 191L207 198Q202 207 194 202L190 197Z" fill="#FFD9C0" stroke="#E8AD94" stroke-width="1.5"/>
+  <circle cx="240" cy="307" r="30" fill="url(#magic)"/>
+  <path d="M240 289L245 301L259 302L249 311L252 325L240 318L228 325L231 311L221 302L235 301Z" fill="#FFE69A" stroke="#C99A45" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M213 275L216 281L222 284L216 287L213 293L210 287L204 284L210 281Z M264 321L266 326L271 328L266 330L264 335L262 330L257 328L262 326Z" fill="#DA83AD"/>
+</svg>

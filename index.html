@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#fcf2f5" />
+    <meta name="description" content="Ein kleiner Schatz, nur für dich. Öffne deine Truhe und entdecke eine liebevolle Botschaft für deinen Tag." />
+    <title>Little treasure · Nur für dich</title>
+    <link rel="icon" href="/assets/heart.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header><a class="wordmark" href="./" aria-label="Little treasure – Startseite"><span aria-hidden="true">♡</span> little treasure</a><span class="header-note">a little love, every day</span></header>
+      <main>
+        <h1 class="sr-only">Dein täglicher Schatz</h1>
+        <section class="treasure" aria-label="Dein täglicher Schatz">
+          <div class="scene" id="scene">
+            <span class="sparkle sparkle-one" aria-hidden="true">✧</span><span class="sparkle sparkle-two" aria-hidden="true">✦</span><span class="sparkle sparkle-three" aria-hidden="true">✧</span><span class="tiny-heart" aria-hidden="true">♡</span>
+            <div class="halo" aria-hidden="true"></div>
+            <img class="princess" src="/assets/princess.svg" alt="Eine Prinzessin im pinken Kleid zeigt mit ihrem Zauberstab auf deine Botschaft." width="280" height="340" />
+            <button class="chest-button" id="chest" aria-label="Schatztruhe öffnen. Noch fünfmal tippen.">
+              <svg class="chest" viewBox="40 30 280 255" fill="none" aria-hidden="true">
+                <defs>
+                  <linearGradient id="wood" x1="90" y1="160" x2="235" y2="280" gradientUnits="userSpaceOnUse"><stop stop-color="#C87B45"/><stop offset="1" stop-color="#854325"/></linearGradient>
+                  <linearGradient id="lidwood" x1="120" y1="90" x2="210" y2="190" gradientUnits="userSpaceOnUse"><stop stop-color="#E7AA69"/><stop offset="1" stop-color="#B96935"/></linearGradient>
+                  <linearGradient id="gold" x1="120" y1="100" x2="240" y2="260" gradientUnits="userSpaceOnUse"><stop stop-color="#FFE4A0"/><stop offset=".45" stop-color="#EFC16C"/><stop offset="1" stop-color="#C88C38"/></linearGradient>
+                  <linearGradient id="side" x1="260" y1="160" x2="305" y2="250"><stop stop-color="#A76133"/><stop offset="1" stop-color="#754021"/></linearGradient>
+                </defs>
+                <ellipse cx="183" cy="267" rx="117" ry="16" fill="#704121" opacity=".12"/>
+                <g class="chest-lid">
+                  <path d="M66 166V137C66 93 103 73 158 77L249 87C280 90 295 116 295 150V169L243 191Z" fill="url(#lidwood)" stroke="#92552E" stroke-width="3" stroke-linejoin="round"/>
+                  <path d="M244 187V145C244 108 224 90 202 83L249 87C280 90 295 116 295 150V169Z" fill="#AD6C3B"/>
+                  <path d="M73 127L242 144M69 148L243 165M92 103L233 120" stroke="#95532B" stroke-opacity=".4" stroke-width="3"/>
+                  <path d="M94 169V136C94 108 109 85 129 78L150 79C129 90 116 113 116 138V173Z" fill="url(#gold)" stroke="#C38B42" stroke-width="2"/>
+                  <path d="M204 184V144C204 116 193 93 180 81L202 83C221 99 227 120 227 147V187Z" fill="url(#gold)" stroke="#C38B42" stroke-width="2"/>
+                  <path d="M66 157L244 178L295 156V173L244 196L66 175Z" fill="url(#gold)" stroke="#BC843D" stroke-width="2"/>
+                  <path d="M70 160L241 181" stroke="#FFE8B5" stroke-width="3" stroke-linecap="round"/>
+                </g>
+                <path d="M69 179L244 200L293 178L289 240Q288 246 280 249L240 267L78 245Q71 244 71 237Z" fill="url(#wood)" stroke="#8C4C2B" stroke-width="3" stroke-linejoin="round"/>
+                <path d="M244 200L293 178L289 240Q288 246 280 249L240 267Z" fill="url(#side)"/>
+                <path d="M76 208L240 230M76 228L240 251M246 229L288 210" stroke="#67371E" stroke-opacity=".3" stroke-width="3"/>
+                <path d="M93 183L115 186V249L93 246Z M204 196L226 199V264L204 261Z" fill="url(#gold)" stroke="#BD843B" stroke-width="2"/>
+                <path d="M69 174L244 195L293 173V187L244 210L70 189Z" fill="url(#gold)" stroke="#BC843D" stroke-width="2" stroke-linejoin="round"/>
+                <path d="M72 235L242 258L289 237V246L241 270L73 247Z" fill="url(#gold)" stroke="#BC843D" stroke-width="2" stroke-linejoin="round"/>
+                <g fill="#A76D2D"><circle cx="104" cy="199" r="3"/><circle cx="104" cy="237" r="3"/><circle cx="215" cy="212" r="3"/><circle cx="215" cy="250" r="3"/></g>
+                <path d="M145 184Q145 180 150 181L175 184Q180 184 180 190V216Q180 222 174 224L163 229L150 222Q145 219 145 214Z" fill="#FFE2A0" stroke="#B57C34" stroke-width="3"/>
+                <path d="M162 214S150 205 154 201C157 197 162 201 162 203C163 199 169 199 170 203C172 208 162 214 162 214Z" fill="#A96935"/>
+              </svg>
+            </button>
+            <div id="particles" class="particles" aria-hidden="true"></div>
+          </div>
+          <div class="instruction" id="instruction"><p id="hint">Dein kleiner Glücksmoment wartet.</p><span id="tap-label">Tippe 5-mal auf die Truhe</span><div class="progress" aria-hidden="true"><span>♥</span><span>♥</span><span>♥</span><span>♥</span><span>♥</span></div></div>
+          <article class="fortune-card" id="fortune-card" hidden aria-labelledby="card-heading" tabindex="-1"><div class="card-top"><span>DEINE BOTSCHAFT FÜR HEUTE</span><span aria-hidden="true">♡</span></div><h2 id="card-heading" lang="en">My beloved dear princess...</h2><p id="fortune-text" lang="en"></p><div class="card-bottom"><span>Mit ganz viel Liebe, nur für dich.</span><span aria-hidden="true">♥</span></div></article>
+          <div id="countdown" class="countdown" hidden><p>Dein nächster kleiner Schatz wartet in</p><span id="countdown-time" class="countdown-time" role="timer" aria-label="Zeit bis zur nächsten Truhe"></span></div>
+          <p id="storage-note" class="storage-note" hidden>Dein Browser kann die Öffnung gerade nicht speichern. Die tägliche Sperre gilt deshalb nur, solange diese Seite offen bleibt.</p>
+          <p class="sr-only" role="status" id="status"></p>
+        </section>
+      </main>
+
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
